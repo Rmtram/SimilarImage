@@ -1,0 +1,37 @@
+{
+  "name": "rmtram/similar-image",
+  "type": "library",
+  "description": "SimilarImage",
+  "keywords": [
+    "SimilarImage"
+  ],
+  "homepage": "https://github.com/Rmtram/SimilarImage",
+  "support": {
+    "issues": "https://github.com/Rmtram/SimilarImage/issues",
+    "source": "https://github.com/Rmtram/SimilarImage"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rmtram",
+      "email": "rmtram95@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Rmtram\\SimilarImage\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Rmtram\\SimilarImage\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "jenssegers/imagehash": "0.3.*",
+    "ackintosh/snidel": "0.3.*"
+  }
+}
